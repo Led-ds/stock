@@ -23,6 +23,13 @@ public class MarkController {
 	@Autowired
 	private MarkService markService;
 
+	public MarkController() {
+	}
+
+	public MarkController(Mark m) {
+
+	}
+
 	public void setMarkService(MarkService markService) {
 		this.markService = markService;
 	}
